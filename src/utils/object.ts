@@ -1,0 +1,1 @@
+export const hasKeys = (v?: Record<any, any>) => v && Object.keys(v).length > 0;

@@ -1,0 +1,81 @@
+.Claim {
+  width: 100%;
+  max-width: 470px;
+  box-sizing: border-box;
+  padding: 40px 40px 32px 40px;
+
+  border: 1px solid #313131;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.Claim__info {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Claim__info__container {
+  padding: 15px;
+  text-align: left;
+}
+.Claim__info__container:first-child {
+  padding-left: 0;
+}
+.Claim__info__container:last-child {
+  padding-right: 0;
+}
+
+.Claim__info__title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #7A7A7A;
+}
+
+.Claim__info__value {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+.Claim__info__currency {
+  font-size: 16px;
+  line-height: 31px;
+}
+
+.Claim__addToken, .Claim__addToken--inner {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+  padding-top: 32px;
+}
+.Claim__addToken:hover, .Claim__addToken--inner:hover {
+  text-decoration: none;
+}
+.Claim__addToken--inner {
+  padding-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Claim {
+    padding: 16px;
+  }
+  .Claim__addToken {
+    padding-top: 16px;
+  }
+  .Claim__addToken--inner {
+    padding-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Claim__info {
+    justify-content: center;
+  }
+  .Claim__info__container {
+    padding: 5px 0;
+    text-align: center;
+  }
+}

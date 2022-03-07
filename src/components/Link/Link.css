@@ -1,0 +1,8 @@
+.Link {
+    text-decoration: none;
+    color: #0019b1;
+}
+
+.Link--noColor {
+    color: inherit;
+}

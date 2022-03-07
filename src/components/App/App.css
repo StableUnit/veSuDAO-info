@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(255,255,255, 0.85);
+}
+
+.App__login {
+  padding-top: 100px;
+  height: calc(100vh - 365px);
+}
+
+.App__login-text, .App__error-text {
+  padding-bottom: 16px;
+  font-size: 20px;
+  text-align: center;
+  color: #7A7A7A;
+}
+
+.App__error-text {
+  padding-top: 100px;
+  height: calc(100vh - 380px);
+}

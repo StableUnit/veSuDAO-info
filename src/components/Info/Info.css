@@ -1,0 +1,48 @@
+.Info {
+    position: relative;
+    vertical-align: top;
+    padding: 14px;
+    width: 205px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    text-align: left;
+    margin: 0 30px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Info {
+        padding: 8px;
+        width: 192px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .Info {
+        padding: 14px;
+        width: 225px;
+    }
+}
+
+.Info__title {
+    color: #7A7A7A;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.Info__value {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.Info__tooltip {
+    position: absolute;
+    top: 20px;
+    right: 13px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+}

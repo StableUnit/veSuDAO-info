@@ -1,0 +1,46 @@
+.ContentContainer {
+  padding-top: 40px;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.ContentContainer__timestamps {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.ContentContainer__no-data {
+  padding-top: 100px;
+  height: calc(100vh - 365px);
+  color: #7A7A7A;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ContentContainer {
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  .ContentContainer__timestamps {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ContentContainer {
+    max-width: 470px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .ContentContainer__timestamps {
+    justify-content: center;
+  }
+}

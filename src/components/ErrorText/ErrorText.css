@@ -1,0 +1,31 @@
+.ErrorText {
+  word-break: break-word;
+  padding-bottom: 25px;
+  max-width: 380px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.ErrorText__icon {
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+}
+
+.ErrorText__warning {
+  color: #F2D15A;
+}
+
+.ErrorText__error {
+  color: #FC7557;
+}
+
+@media only screen and (max-width: 600px) {
+  .ErrorText {
+    padding-bottom: 16px;
+  }
+}
